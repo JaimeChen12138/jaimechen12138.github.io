@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(205, 249, 235);
+}
+h1 {
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  overflow: hidden;
+  background-color: rgb(199, 233, 244);
+  margin-bottom: 50px;
+}
+
+.navbarItems {
+  display: inline;
+}
+
+.navAchrEle {
+  display: inline;
+  color: black;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-size: medium;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.navAchrEle:hover {
+  color: lightgreen;
+  font-size: large;
+}
+
+a {
+  font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#personalPhoto {
+  margin-right: 30px;
+  margin-top: 10px;
+  max-width: auto;
+  max-height: 80px;
+  align-items: center;
+}
+
+.education {
+  margin-top: 200px;
+}
+
+.projects {
+  margin-top: 160px;
+}
+
+.contact-style {
+  margin-top: 160px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    top: 0;
+  }
+
+  #personalPhoto {
+    max-width: 20%;
+    height: auto;
+  }
+
+  .navAchrEle {
+    font-size: xx-small;
+    text-align: left;
+    padding: 5px 5px;
+  }
+
+  .education {
+    margin-top: 250px;
+  }
+
+  .projects {
+    margin-top: 250px;
+  }
+
+  .contact-style {
+    margin-top: 250px;
+  }
+}
